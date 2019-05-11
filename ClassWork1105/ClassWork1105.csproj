@@ -45,8 +45,15 @@
   <ItemGroup>
     <Compile Include="Figure\Circle.cs" />
     <Compile Include="Figure\Figures.cs" />
+    <Compile Include="Figure\Rhombus.cs" />
     <Compile Include="Figure\Square.cs" />
     <Compile Include="Figure\Triangle.cs" />
+    <Compile Include="Plants\Colour.cs" />
+    <Compile Include="Plants\Flowers.cs" />
+    <Compile Include="Plants\Gallery.cs" />
+    <Compile Include="Plants\Plant.cs" />
+    <Compile Include="Plants\Trees.cs" />
+    <Compile Include="Plants\Worker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
