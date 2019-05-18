@@ -34,7 +34,6 @@ namespace ClassWork1105.Plants
                 {
                     worker.Watering(tree, minerals, water);
                 }
-
             }
         }
    }
