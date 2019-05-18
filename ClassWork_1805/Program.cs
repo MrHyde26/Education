@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using ClassWork_1805.Figures;
 using ClassWork_1805.Mammals;
 using ClassWork_1805.Humans;
+using ClassWork_1805.Calculator;
 
 namespace ClassWork_1805
 {
@@ -41,18 +42,21 @@ namespace ClassWork_1805
             //{
             //    item.Eat(10);
             //}
-            Human[] humans =
-                {
-            new Russian("Andrey"),
-            new Ukraine("Andrey"),
-            new English("Andrey")
-                };
 
+            //Human[] humans =
+            //    {
+            //new Russian("Andrey"),
+            //new Ukraine("Ivan"),
+            //new English("Nick")
+            //    };
 
-            foreach (var item in humans)
-            {
-                item.SayHello();
-            }
+            //foreach (var item in humans)
+            //{
+            //    item.SayHello();
+            //}
+
+            Calculat calc = new Calculat();
+              calc.Calculation(4, 2);
         }
     }
 }

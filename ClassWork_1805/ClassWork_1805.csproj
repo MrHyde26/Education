@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculator\Calculat.cs" />
+    <Compile Include="Calculator\DivideOperation.cs" />
+    <Compile Include="Calculator\MultiplicationOperation.cs" />
+    <Compile Include="Calculator\Operation.cs" />
+    <Compile Include="Calculator\SubtractionOperation.cs" />
+    <Compile Include="Calculator\SumOperation.cs" />
     <Compile Include="Figures\Circle.cs" />
     <Compile Include="Figures\Figure.cs" />
     <Compile Include="Figures\Rhombus.cs" />
