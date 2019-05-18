@@ -48,11 +48,18 @@
     <Compile Include="Figures\Rhombus.cs" />
     <Compile Include="Figures\Square.cs" />
     <Compile Include="Figures\Triangle.cs" />
+    <Compile Include="Mammals\Aquatic.cs" />
+    <Compile Include="Mammals\Arboreal.cs" />
+    <Compile Include="Mammals\Arial.cs" />
+    <Compile Include="Mammals\Mammal.cs" />
+    <Compile Include="Mammals\Subterranean.cs" />
+    <Compile Include="Mammals\Terrestrial.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
