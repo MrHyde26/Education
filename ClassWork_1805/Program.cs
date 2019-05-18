@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ClassWork_1805.Figures;
 using ClassWork_1805.Mammals;
+using ClassWork_1805.Humans;
 
 namespace ClassWork_1805
 {
@@ -31,14 +32,26 @@ namespace ClassWork_1805
             //    item.Draw();
             //}
 
-            Aquatic animal1 = new Aquatic(10);
-            Arial animal2 = new Arial(10);
-            Arial animal3 = new Arial(15);
-            Mammal[] animal = new Mammal[] { animal1, animal2,animal3 };
+            //Aquatic animal1 = new Aquatic(10);
+            //Arial animal2 = new Arial(10);
+            //Arial animal3 = new Arial(15);
+            //Mammal[] animal = new Mammal[] { animal1, animal2,animal3 };
 
-            foreach (var item in animal)
+            //foreach (var item in animal)
+            //{
+            //    item.Eat(10);
+            //}
+            Human[] humans =
+                {
+            new Russian("Andrey"),
+            new Ukraine("Andrey"),
+            new English("Andrey")
+                };
+
+
+            foreach (var item in humans)
             {
-                item.Eat(10);
+                item.SayHello();
             }
         }
     }

@@ -48,6 +48,10 @@
     <Compile Include="Figures\Rhombus.cs" />
     <Compile Include="Figures\Square.cs" />
     <Compile Include="Figures\Triangle.cs" />
+    <Compile Include="Humans\English.cs" />
+    <Compile Include="Humans\Human.cs" />
+    <Compile Include="Humans\Russian.cs" />
+    <Compile Include="Humans\Ukraine.cs" />
     <Compile Include="Mammals\Aquatic.cs" />
     <Compile Include="Mammals\Arboreal.cs" />
     <Compile Include="Mammals\Arial.cs" />
