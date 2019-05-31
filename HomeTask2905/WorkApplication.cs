@@ -84,7 +84,10 @@ namespace HomeTask2905
 
                     for (int j = 0; j < index; i++)
                     {
-                        bankAcc[j].GetType().
+                        if(bankAcc[j] is Deposite || bankAcc[j] is CardAcc)
+                            {
+                            bankAcc[j].
+                        }
                     }
                 }
                 } while (exitAcc == false);
