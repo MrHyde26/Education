@@ -10,6 +10,8 @@ namespace HomeTask2905
     {
         static void Main(string[] args)
         {
+            WorkApplication work = new WorkApplication();
+            work.Main();
         }
     }
 }
