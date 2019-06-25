@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeTask2905
+namespace ClassWork1806
 {
     class Program
     {
         static void Main(string[] args)
         {
-            WorkCardApplication work = new WorkCardApplication();
-            work.WorkApplication();
+            IReadOnlyCollection<int> collection = new ReadOnlyCollection<int>(new Collection<int> {1,2,3,4});
         }
     }
 }
