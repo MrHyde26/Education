@@ -12,8 +12,8 @@ namespace Education
         static void Main(string[] args)
         {
             //new CountsFolders().Execute();
-            new CreateFile().Execute();
-
+            //new CreateFile().Execute();
+            new CountInformationInFile().Execute();
         }
     }
 }

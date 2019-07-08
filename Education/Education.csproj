@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CountInformationInFile.cs" />
     <Compile Include="CountsFolders.cs" />
     <Compile Include="CreateFile.cs" />
     <Compile Include="Program.cs" />
