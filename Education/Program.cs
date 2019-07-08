@@ -7,11 +7,13 @@ using System.Threading.Tasks;
 
 namespace Education
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
-            new CountsFolders().Execute();
+            //new CountsFolders().Execute();
+            new CreateFile().Execute();
+
         }
     }
 }
