@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Education
 {
     class Program
     {
         static void Main(string[] args)
         {
+            new CountsFolders().Execute();
         }
     }
 }
