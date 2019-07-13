@@ -48,6 +48,10 @@
     <Compile Include="Pong.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Task1.2\EventPingPong.cs" />
+    <Compile Include="Task1.2\Ping.cs" />
+    <Compile Include="Task1.2\Player.cs" />
+    <Compile Include="Task1.2\Pong.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
