@@ -25,12 +25,16 @@ namespace ClassWork1307.Task1._2
         }
         public void OnPingInvoked(EventPingPong e)
         {
+            Console.WriteLine(e);
             pong.DoPong();
+            
         }
 
         public void OnPongInvoked(EventPingPong e)
         {
+            Console.WriteLine(e);
             ping.DoPing();
+            
         }
 
     }

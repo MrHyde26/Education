@@ -52,6 +52,9 @@
     <Compile Include="Task1.2\Ping.cs" />
     <Compile Include="Task1.2\Player.cs" />
     <Compile Include="Task1.2\Pong.cs" />
+    <Compile Include="Task2\Hunter.cs" />
+    <Compile Include="Task2\Hunting.cs" />
+    <Compile Include="Task2\Rabbit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -14,6 +14,11 @@ namespace ClassWork1307.Task1._2
         {
             this.timeEvent = timeEvent;
         }
-            
+
+        public override string ToString()
+        {
+            return this.timeEvent.ToString();
+
+        }
     }
 }

@@ -19,7 +19,7 @@ namespace ClassWork1307.Task1._2
 
         public void DoPong()
         {
-            Console.WriteLine("Pong" + " " + DateTime.Now);
+            Console.WriteLine("Pong");
             System.Threading.Thread.Sleep(1000);
             this.OnPong(new EventPingPong(DateTime.Now));
         }
